@@ -71,7 +71,7 @@ node export-cognito.js <USER_POOL_ID>
 - Example:
 
   ```bash
-  node export-cognito.js us-east-1_Ayviomu6n
+  node export-cognito.js us-east-1_xxxxx
   ```
 
 - Output file: `cognito-users.json`.
@@ -88,7 +88,7 @@ node remove-cognito-user.js <USER_POOL_ID>
 - Example:
 
   ```bash
-  node remove-cognito-user.js us-east-1_Ayviomu6n
+  node remove-cognito-user.js us-east-1_xxxxx
   ```
 
 - Use with caution ⚠️ — this is irreversible.
