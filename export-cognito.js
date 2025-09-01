@@ -2,7 +2,7 @@ import { CognitoIdentityProviderClient, ListUsersCommand } from "@aws-sdk/client
 import fs from "fs";
 
 const client = new CognitoIdentityProviderClient({ region: "us-east-1" }); // change region
-const userPoolId = "us-east-1_Ayviomu6n"
+const userPoolId = process.argv[2];
 async function listAllUsers() {
   let users = [];
   let paginationToken;
